@@ -112,7 +112,7 @@ DSA-Using-CPP/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/ArbaazAli1209/DSA_using_cpp.git
 ```
 
 ### Compile a C++ Program
@@ -153,28 +153,9 @@ This repository focuses on:
 
 This repository follows the **DSA using C++ Playlist** by **Coder Army**.
 
-**Playlist:** https://youtube.com/playlist?list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01
+**Playlist:** https://youtube.com/playlist?list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01&si=mRfASW47YP4Nk5Q0
 
 A sincere thank you to the **Coder Army** team for creating a structured and beginner-friendly DSA course that makes complex concepts easy to understand.
-
----
-
-## 📈 Progress
-
-- [x] C++ Basics
-- [x] Arrays
-- [x] Strings
-- [x] Searching
-- [x] Sorting
-- [x] Recursion
-- [ ] Linked List
-- [ ] Stack
-- [ ] Queue
-- [ ] Trees
-- [ ] Graphs
-- [ ] Dynamic Programming
-
-> Progress will be updated as I continue learning.
 
 ---
 
