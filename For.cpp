@@ -119,23 +119,20 @@ int main()
     cout << "Enter the series number: ";
     cin >> n;
 
-    if (n < 0)
+    if (n <= 0)
     {
         cout << "Enter valid number";
         return 0;
     }
-    else
-    {
-        last = 0;
-        prev = 1;
-        curr = 1;
-    }
+    last = 0;
+    prev = 1;
+
     for ( i = 0; i < n; i = i + 1)
     {
+        cout << last << " ";
+
         curr = last + prev;
         last = prev;
         prev = curr;
-        cout << curr << " ";
-    }
-    
+    } 
 }
