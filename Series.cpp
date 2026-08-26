@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 // char Convert(char name)
@@ -17,36 +16,55 @@ using namespace std;
 
 
 // Armstrong Number.
-int countDigit (int n)
+int countDigit(int n)
 {
+    if (n == 0)
+        return 1;
+
     int count = 0;
+
     while (n)
     {
         count++;
         n /= 10;
     }
+
     return count;
 }
+
+int Pow(int base, int exp) {
+    int result = 1;
+    while (exp--) result *= base;
+    return result;
+}
+
 bool Armstrong(int num, int digit)
 {
-    int n = num, ans = 0, rem;
+    int n = num; 
+    int ans = 0;
     while (n)
     {
-        rem = n%10;
+        int rem = n % 10;
+
         n /= 10;
-        ans = ans + pow(rem, digit);
+        
+        ans = ans + Pow(rem, digit);
     }
-    if (ans == num)
-    return 1;
-    
-    else
-    return 0;
+    return ans == num;
 }
+
 int main()
 {
     int num;
     cout << "Enter the number: ";
     cin >> num;
+
     int digit = countDigit(num);
-    cout << Armstrong(num, digit);
+
+    if (Armstrong(num, digit))
+        cout << num << " is an Armstrong number.";
+    else
+        cout << num << " is not an Armstrong number.";
+
+    return 0;
 }
