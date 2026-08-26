@@ -80,29 +80,6 @@ The goal is to build a strong foundation in algorithmic thinking, improve coding
 
 ---
 
-## 📂 Repository Structure
-
-```
-DSA-Using-CPP/
-│
-├── 01_Basics/
-├── 02_Arrays/
-├── 03_Strings/
-├── 04_Searching/
-├── 05_Sorting/
-├── 06_Recursion/
-├── 07_Linked_List/
-├── 08_Stack/
-├── 09_Queue/
-├── 10_Trees/
-├── 11_BST/
-├── 12_Heap/
-├── 13_Graph/
-├── 14_Dynamic_Programming/
-├── 15_Problems/
-└── README.md
-```
-
 > Folder names may change as new topics are added.
 
 ---
